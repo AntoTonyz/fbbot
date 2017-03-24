@@ -13,7 +13,7 @@ bot.on('error', (err) => {
 bot.on('message', (payload, reply) => {
     let text = payload.message.text;
 
-    reply({ text: 'This is me :)' }, function(err) {
+    reply({ text: 'Welcome to taskconcierge.Bot building in progress :)' }, function(err) {
         if (err) console.log(err);
     });
 });
